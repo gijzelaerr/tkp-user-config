@@ -1,0 +1,6 @@
+# extraction threshold (basically S/N) and associetion radius (in units of the default De Ruiter radius)
+detection.threshold = 5.5
+analysis.threshold = 3.0
+association.radius = 2.5
+backsize.x = 32
+backsize.y = 32
