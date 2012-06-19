@@ -4,3 +4,6 @@ analysis.threshold = 3.0
 association.radius = 2.5
 backsize.x = 32
 backsize.y = 32
+margin = 10
+deblend = False
+deblend_nthresh = 32
