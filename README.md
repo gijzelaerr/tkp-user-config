@@ -10,6 +10,12 @@ Likewise if you wish to use specific config (`pipeline.cfg`) or tasks files, you
 
 The .cfg files use the python configparser syntax. For details, see: <http://docs.python.org/library/configparser.html>.
 
+Caveat Emptor
+---
+- This is currently a work in progress not really intended for end user consumption, e.g. the sip.py is full of old and ugly code.
+- These config files and scripts are a good example of how to lay out your working system, but they are merely a starting point. 
+To to properly utilise the pipline (and to do good science) you, the end user, *must* be aware of the pipeline inner workings, at least at the conceptual level [1].
+
 Config
 ---
 
@@ -54,7 +60,7 @@ But otherwise it's much easier to keep them all in one easily deletable folder:
 `working_directory = %(runtime_directory)s/working_dir/%(job_name)s`
 
 
-
+[1]: If in doubt, talk to John.
 
 
 
