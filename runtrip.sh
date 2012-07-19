@@ -10,6 +10,6 @@ source /opt/lofar-${BUILD_VER}/init-lofar.sh
 rm -f statefile
 
 PYTHONPATH=./:$PYTHONPATH \
-python $USER_CONFIG_REPO/sip.py  \
+python $USER_CONFIG_REPO/trip.py  \
 	-c $USER_CONFIG_REPO/pipeline.cfg \
-    -t $USER_CONFIG_REPO/sip-tasks.cfg -d $*
+    -t $USER_CONFIG_REPO/trip-tasks.cfg -d $*
