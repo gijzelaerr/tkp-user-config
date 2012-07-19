@@ -7,6 +7,7 @@ USER_CONFIG_REPO=$(dirname $(readlink -f $BASH_SOURCE))
 source /opt/soft/reset-paths.sh 
 source /opt/lofar-${BUILD_VER}/init-lofar.sh
 
+rm -f statefile
 
 PYTHONPATH=./:$PYTHONPATH \
 python $USER_CONFIG_REPO/sip.py  \
