@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUILD_VER=latest
+BUILD_VER=stable
 RECIPE_DIR=/opt/lofar-${BUILD_VER}/symlinks/tkp-root/recipes
 USER_CONFIG_REPO=$(dirname $(readlink -f $BASH_SOURCE))
 
